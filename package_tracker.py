@@ -1,5 +1,6 @@
-from flask import Flask, render_template, Config
+from flask import Flask, render_template
 from app.shipping_form import ShippingForm
+from app.config import Config
 
 app = Flask(__name__)
 
